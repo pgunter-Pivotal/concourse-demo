@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Concourse Demo</title>
+</head>
+<body>
+<div class="container" id="main">
+
+    <div class="starter-template">
+
+        <h2 class="message">
+            <span th:text="${message}"></span>
+        </h2>
+    </div>
+    <div style="width:100%;height:0;padding-bottom:60%;position:relative;">
+        <!--<iframe width="560" height="316" th:src="@{https://giphy.com/embed/385FGfqyFXtgQ}" frameBorder="0" class="giphy-embed"></iframe>-->
+        <img th:src="@{/images/rhos.png}" style="width:75%">
+    </div>
+
+</div>
+<!-- /.container -->
+
+<script type="text/javascript"
+        src="webjars/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+</body>
+</html>
