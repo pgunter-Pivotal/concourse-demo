@@ -1,0 +1,5 @@
+---
+applications:
+- name: fun-app
+  instances: 1
+  random-route: true
